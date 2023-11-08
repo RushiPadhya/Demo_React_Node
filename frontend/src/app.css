@@ -1,0 +1,136 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* border: 1px solid ; */
+  }
+
+  .checkout-page{
+    height: 99vh;
+  
+
+  }
+  .checkout-logo img{
+        height: auto;
+        max-width: 20%;
+        object-fit: cover;
+  }
+ 
+ .checkout{
+    height:92.8vh ;
+    background-color: rgba(63, 62, 62, 0.068);
+ }
+.step{
+    background-color: black;
+    color: #ffff;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.account-info{
+    border-radius: 5px;
+}
+.payment-info{
+    background-color: #ffff;
+    border-radius: 5px;
+}
+.user-info-form label{
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(107, 105, 105, 0.76);
+
+}
+.user-info-form input{
+   background-color: rgba(107, 105, 105, 0.185);
+   border: none;
+   border-radius: 4px;
+}
+.user-info-form button{
+     background-color:rgba(255, 68, 0, 0.801);
+     border: none;
+     color: white;
+     padding: 8px 50px;
+     border-radius: 4px;
+}
+.other-details{
+   background-color: transparent;
+
+}
+.order-form{
+    background-color: #ffff;
+    border-radius: 4px;
+}
+.other-details-bg{
+    background-color: #ffff;
+    border-radius: 4px;
+}
+.detail-title span{
+     font-size: 16px;
+     font-weight: 500;
+}
+.detail-step span{
+    color: rgba(107, 105, 105, 0.76);
+    font-weight: 500;
+    font-size: 14px;
+}
+.plan span{
+    color:rgba(255, 68, 0, 0.801);
+    font-weight: 500;
+    font-size: 14px;
+}
+.plan-details{
+    background-color: rgba(236, 205, 250, 0.267);
+    border-radius: 4px;
+}
+.plan-details span{
+    font-size: 12px;
+    font-weight: 500;
+    color: rgba(107, 105, 105, 0.76);
+}
+.user-count span{
+    background-color: #0000;
+}
+.discount span{
+    color:rgba(255, 68, 0, 0.801);
+    font-weight: 500;
+    font-size: 14px;
+}
+.add-on span{
+ color: black;
+ font-size: 16px;
+ font-weight: 600;
+}
+.shipping,
+.tax{
+    font-weight: 500;
+}
+.code span{
+    font-weight: 500;
+    color:rgba(255, 68, 0, 0.801);
+    font-size: 14px;
+}
+.renewal-date{
+    background-color: rgba(236, 205, 250, 0.267);
+}
+.total-bill{
+    background-color: black;
+    color: #ffff;
+    border-radius: 4px;
+}
+.renewal-date{
+    font-weight: 500;
+    border-radius: 4px;
+}
+.form-check-input{
+    box-shadow: none!important;
+}
+.form-check-input:checked {
+    background-color: rgba(255, 68, 0, 0.801)!important;
+    border-color: rgba(255, 68, 0, 0.801)!important;
+    box-shadow: none!important;
+}
+.need-users{
+    margin-left: 1px;
+}
+.form-check-input[type=checkbox] {
+    border-radius: 0!important;
+}
